@@ -33,6 +33,7 @@
   <project name="meta-hostmobility-bsp.git" path="layers/meta-hostmobility-bsp" remote="hm" revision="master"/>
   <project name="meta-hostmobility-distro.git" path="layers/meta-hostmobility-distro" remote="hm" revision="master"/>
   <project name="mx4-deploy.git" path="mx4-deploy" remote="hmssh" revision="master"/>
+  <project name="mx5-deploy.git" path="mx5-deploy" remote="hm" revision="master"/>
 
   <project name="meta-virtualization.git" path="layers/meta-virtualization" remote="yocto" revision="zeus"/>
 
