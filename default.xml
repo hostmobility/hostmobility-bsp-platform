@@ -21,8 +21,8 @@
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="4793c6737d73134a2e73da466e823ca65f53f969" upstream="rocko"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="d7b2e3daf86a632ab92bb43eaa697a4c6b70ddae" upstream="rocko"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="dd9e2dedb9ab41f509bae26f12704cbee1eb765d" upstream="rocko"/>
-  <project name="meta-hostmobility-bsp.git" path="layers/meta-hostmobility-bsp" remote="hm" revision="abe66f150378ac50523f60a1beb9209f604388d7" upstream="master"/>
-  <project name="meta-hostmobility-distro.git" path="layers/meta-hostmobility-distro" remote="hm" revision="d1b9cdf94c9a41056aa05ae960520b31a0899e32" upstream="master"/>
+  <project name="meta-hostmobility-bsp.git" path="layers/meta-hostmobility-bsp" remote="hm" revision="49dfe79a33a4238a8a73c5e0f689d38a5081a9ea" upstream="master"/>
+  <project name="meta-hostmobility-distro.git" path="layers/meta-hostmobility-distro" remote="hm" revision="99812ba8ab7049ffcfca4d0ec758e56d90e096ad" upstream="master"/>
   <project name="mx4-deploy.git" path="mx4-deploy" remote="hmssh" revision="master"/>
   <project name="meta-virtualization.git" path="layers/meta-virtualization" remote="yocto" revision="b704c689b67639214b9568a3d62e82df27e9434f"/>
 </manifest>
