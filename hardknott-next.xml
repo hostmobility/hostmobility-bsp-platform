@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote alias="repo" fetch="http://github.com/Freescale" name="githf"/>
+  <remote alias="repo" fetch="http://git.toradex.com" name="tdx"/>
+  <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote alias="repo" fetch="http://github.com/hostmobility/" name="hm"/>
+  <remote alias="repo" fetch="ssh://git@github.com/hostmobility/" name="hmssh"/>
+  <remote alias="repo" fetch="https://github.com" name="github"/>
+  <remote alias="repo" fetch="ssh://git@gitlab.com/hostmobility/" name="gitlab"/>
+
+  <default sync-j="4"/>
+  <project name="openembedded/bitbake" path="layers/openembedded-core/bitbake" remote="github" revision="1.50"/>
+  <project name="Angstrom-distribution/meta-angstrom" path="layers/meta-angstrom" remote="github" revision="angstrom-2021.06-hardknott"/>
+  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="hardknott"/>
+  <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf"  revision="hardknott"/>
+  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf"  revision="hardknott" />
+
+  <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github" revision="hardknott"/>
+
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="master"/>
+
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="master"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="master"/>
+
+  <project name="meta-hostmobility-bsp.git" path="layers/meta-hostmobility-bsp" remote="hm" revision="hack-build-t30-image-hardknott"/>
+  <project name="meta-hostmobility-distro.git" path="layers/meta-hostmobility-distro" remote="hm" revision="master"/>
+  <project name="mx4-deploy.git" path="mx4-deploy" remote="hmssh" revision="master"/>
+
+  <project name="meta-virtualization.git" path="layers/meta-virtualization" remote="yocto" revision="hardknott"/>
+
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="hardknott"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="hardknott"/>
+</manifest>
