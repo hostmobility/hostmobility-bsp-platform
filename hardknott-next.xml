@@ -17,7 +17,7 @@
 
   <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github" revision="hardknott"/>
 
-  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="master"/>
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="ec2f36ba25d90ed57051b5d091dca9182233626b" upstream="master"/>
 
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="master"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="master"/>
