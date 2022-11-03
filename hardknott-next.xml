@@ -19,8 +19,8 @@
 
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="ec2f36ba25d90ed57051b5d091dca9182233626b" upstream="master"/>
 
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="master"/>
-  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="master"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="aed3c9b8e2a89703e3982d52e86c7d754021e489" upstream="master"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="5e9142d80fe87694dab0be5c571fdca835d871ed" upstream="master"/>
 
   <project name="meta-hostmobility-bsp.git" path="layers/meta-hostmobility-bsp" remote="hm" revision="master"/>
   <project name="meta-hostmobility-distro.git" path="layers/meta-hostmobility-distro" remote="hm" revision="master"/>
