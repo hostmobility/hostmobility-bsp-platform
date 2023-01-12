@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote alias="repo" fetch="http://github.com/Freescale" name="githf"/>
+  <remote alias="repo" fetch="http://git.toradex.com" name="tdx"/>
+  <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote alias="repo" fetch="http://github.com/hostmobility/" name="hm"/>
+  <remote alias="repo" fetch="ssh://git@github.com/hostmobility/" name="hmssh"/>
+  <remote alias="repo" fetch="https://github.com" name="github"/>
+  <remote alias="repo" fetch="ssh://git@gitlab.com/hostmobility/" name="gitlab"/>
+
+  <default sync-j="4"/>
+  <project name="openembedded/bitbake" path="layers/openembedded-core/bitbake" remote="github" revision="d01d8326331cfe59208674cfc53aa26c0028b313" upstream="1.50"/>
+  <project name="Angstrom-distribution/meta-angstrom" path="layers/meta-angstrom" remote="github" revision="18c624d322ec147c3a2c2972531d3a2081d02313" upstream="angstrom-2021.06-hardknott"/>
+  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="5accab57f95a2f604b3ad36ac25d09bb4efdf6f5" upstream="hardknott"/>
+  <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="e6daa26ba1f748326546063d63a085ae671827d9" upstream="hardknott"/>
+  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="470da01b34b538d8b2a9bf9da512b89f4f76c7f9" upstream="hardknott"/>
+
+  <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github" revision="43f8f539d40070a70fe89136db89bf5bb1dfe7ed" upstream="hardknott"/>
+
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="ec2f36ba25d90ed57051b5d091dca9182233626b" upstream="master"/>
+
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="aed3c9b8e2a89703e3982d52e86c7d754021e489" upstream="master"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="5e9142d80fe87694dab0be5c571fdca835d871ed" upstream="master"/>
+
+  <project name="meta-hostmobility-bsp.git" path="layers/meta-hostmobility-bsp" remote="hm" revision="ee0c1b7d76fce2c164ec9cf03608577b31d7b880" upstream="hardknott"/>
+  <project name="meta-hostmobility-distro.git" path="layers/meta-hostmobility-distro" remote="hm" revision="1cb02290cd84b80c7774c98869b7ab55aba38b2c" upstream="master"/>
+  <project name="mx4-deploy.git" path="mx4-deploy" remote="hmssh" revision="ed08d0efba2486351eb7c7719e6723e3d1861909" upstream="master"/>
+
+  <project name="meta-virtualization.git" path="layers/meta-virtualization" remote="yocto" revision="e4ea75c314ff93ffdd69d7706876b97de99f6f33" upstream="hardknott"/>
+
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="786d3aa313e31a718acc9611ba3adb60573ec458" upstream="hardknott"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github" revision="fbbb689c8df7f82644b8a9bc5bb6884bc6516660" upstream="hardknott"/>
+</manifest>
